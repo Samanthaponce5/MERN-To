@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { Component } from 'react';
 
-class TodoList extends React.Component{
+class TodoList extends Component{
+   
+   
 
     render(){
 

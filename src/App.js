@@ -1,7 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
-import { Component } from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import React, { Component } from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import CreateTodo from './components/CreateTodo'
 import EditTodo from './components/EditTodo'
 import TodoList from "./components/TodosList";

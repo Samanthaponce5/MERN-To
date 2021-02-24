@@ -8,7 +8,7 @@ class Navbar extends React.Component{
         return(
 
             <nav className="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="https://codingthesmartway.com" target="_blank">
+            <a class="navbar-brand" href="https://codingthesmartway.com" >
             </a>
             <Link to="/" className="navbar-brand">MERN-Stack Todo App</Link>
             <div className="collpase navbar-collapse">
