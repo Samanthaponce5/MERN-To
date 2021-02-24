@@ -38,7 +38,7 @@ import React, { Component } from 'react'
     
     onSubmit(e){
 
-        e.prevenDefault()
+        e.preventDefault()
         console.log('Form Subitted')
         console.log(`Todo Description: ${this.state.todo_description}`)
         console.log(`Todo Priority: ${ this.state.todo_responsible}`)
